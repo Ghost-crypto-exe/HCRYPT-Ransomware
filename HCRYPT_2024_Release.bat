@@ -47,7 +47,7 @@ EXIT
 ::
 ::
 :: Change the Link after "=" with your own webhook:
-set webhook=https://discord.com/api/webhooks/1213007591198818315/uhbDkZUnvFr29Pwrn7ORn2PpRG8pUODi2xcD0mFtZDN3DfT4l5MMsAE9RZptiaKeGosY
+set webhook=https://discord.com/api/webhooks/1213128379119937812315
 ::
 ::
 ::
