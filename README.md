@@ -18,6 +18,7 @@ Below you can find steps to make the ransomware custom to you.
 Inorder to make the file opperational navigate to the downloaded .bat file, open it in notepad or any other text editor. Once open scroll down to the following part in the text and follow the instructions:
 
 
+
 ![Unbenannt](https://github.com/Ghost-crypto-exe/HCRYPT-Ransomware/assets/72792767/403dedf1-33d4-486e-8573-5d1d17b1da6c)
 
 
@@ -309,6 +310,46 @@ goto :eof
 :end
 ```
 Now replace the message with your own... Base 64 encode it again and add it back into the code from step 1.
+
+
+_____________________________________________________________________________________________________________________________________________________________________________
+
+
+Usage of the System.exe encryption software:
+
+Encrypting of a file:
+
+System.exe --encrypt --file=<file name> --pass=<passphrase>
+
+System.exe --encrypt --file=<file name> --pass=<passphrase> --algo=<block cipher algorithm name> --mode=<operation mode>
+
+Decrypting of a file:
+
+System.exe --decrypt --file=<file name> --pass=<passphrase>
+
+The default cipher is AES-256, the default operation mode is CBC.
+
+Encryption key is derived from PBKDF (Password Based Key Derivation Function) with SHA-512 algorithm.
+
+
+System.exe – command line AES-256, Serpent and Twofish cascaded encryptor for extra security. Encrypts a given file with the above mentioned block ciphers simultaneously in CBC mode. Multiple encryption is the process of encrypting an already encrypted message one or more times, either using the same or a different algorithm. The terms cascade encryption, cascade ciphering, multiple encryption, multiple ciphering, and superencipherment are used with the same meaning.
+
+http://en.wikipedia.org/wiki/Multiple_encryption
+
+Usage:
+
+Encrypting of a file:
+
+System.exe --encrypt --file=<file name> --pass=<passphrase>
+
+Decrypting of a file:
+
+System.exe --decrypt --file=<file name> --pass=<passphrase>
+
+
+Compression: the encrypted file is always compressed with bzip2 algorithm first so the output file is usually smaller than the input file.
+
+
 
 (Currently only tested in windows 10 2022 Server)
 
