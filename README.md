@@ -10,9 +10,6 @@
 A somewhat advanced batch ransomware with built in info stealer, AES-128, AES-192, AES-256, Blowfish, CAST-128, CAST-256, DES, TripleDES, DESX, GOST, IDEA, KASUMI, Lion, LubyRackoff, MARS, MISTY1, Noekeon, RC2, RC5, RC6, SAFER-SK, SEED, Serpent, Skipjack, Square, TEA, Twofish, XTEA encryption possibility and other cool features like sending system information and search history info to a webhook...
 
 
-![Unbenannt](https://github.com/Ghost-crypto-exe/HCRYPT-Ransomware/assets/72792767/403dedf1-33d4-486e-8573-5d1d17b1da6c)
-
-
 The default cipher is AES-256, the default operation mode is CBC.
 
 Encryption key is derived from PBKDF (Password Based Key Derivation Function) with SHA-512 algorithm.
